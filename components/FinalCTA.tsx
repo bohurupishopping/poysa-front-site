@@ -15,8 +15,12 @@ const FinalCTA: React.FC = () => {
               Join thousands of Indian businesses switching to a smarter, simpler, and more efficient way to manage their finances.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4">
-              <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-neutral-200">Start Your Free Trial</Button>
-              <Button variant="ghost" size="lg" className="text-white hover:bg-white/10">Book a Demo</Button>
+              <a href="https://app.poysa.de" target="_blank" rel="noopener noreferrer">
+                <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-neutral-200">Start Your Free Trial</Button>
+              </a>
+              <a href="https://groups.google.com/g/bohurupi-services/c/J0wzuC5gtYw" target="_blank" rel="noopener noreferrer">
+                <Button variant="ghost" size="lg" className="text-white hover:bg-white/10">Download App</Button>
+              </a>
             </div>
           </div>
         </div>
