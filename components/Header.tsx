@@ -67,8 +67,9 @@ const Header: React.FC<HeaderProps> = ({ navigate }) => {
                 {navLinks}
               </nav>
               <div className="hidden md:flex items-center justify-end space-x-3">
-                <Button variant="ghost" size="sm">Log In</Button>
-                <Button variant="primary" size="sm">Start Free Trial</Button>
+                <a href="https://app.poysa.de" target="_blank" rel="noopener noreferrer">
+                  <Button variant="primary" size="sm">Login</Button>
+                </a>
               </div>
               <div className="md:hidden">
                 <button onClick={() => setIsOpen(!isOpen)} className="p-2 rounded-md text-neutral-600 hover:bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-primary" aria-label="Toggle menu" aria-expanded={isOpen}>
@@ -86,7 +87,9 @@ const Header: React.FC<HeaderProps> = ({ navigate }) => {
                     {navLinks}
                     <div className="flex flex-col items-center space-y-3 pt-4">
                         <Button variant="ghost" size="sm" className="w-full">Log In</Button>
-                        <Button variant="primary" size="sm" className="w-full">Start Free Trial</Button>
+                        <a href="https://app.poysa.de" target="_blank" rel="noopener noreferrer">
+                          <Button variant="primary" size="sm" className="w-full">Start Free Trial</Button>
+                        </a>
                     </div>
                 </nav>
             </div>
